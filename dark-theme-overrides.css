@@ -1,0 +1,59 @@
+/* стили для тёмной темы */
+
+.dark-theme .section_1,
+.dark-theme .experience-section {
+    background-color: var(--gray-light);
+}
+
+.dark-theme .skills span {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+}
+
+.dark-theme .progress {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .progress-bar {
+    background: var(--button-bg);
+}
+
+.dark-theme .experience-card {
+    background: var(--gray-light);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .experience-card h2 {
+    color: #1664EA;
+}
+
+.dark-theme input {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    color: var(--text-color);
+}
+
+.dark-theme textarea {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: var(--text-color);
+}
+
+
+.dark-theme small {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-theme .cards_card {
+    background-color: var(--gray-light);
+}
+
+.dark-theme .cards_card::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dark-theme .cards_card .button {
+    color: #1B1B1B;
+}
+
+.dark-theme footer .back-to-top {
+    color: #1664EA;
+}
